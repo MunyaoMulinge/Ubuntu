@@ -1,27 +1,27 @@
 name = input("Enter student's name:\n")
 grade = int(input("Enter student's grade\n"))
 
-if grade >= 90:
+if 90 <= grade <= 100:
     print("Grade A+")
     print(f"Congrats {name}")
 
-elif grade >= 80:
+elif 80 <= grade <= 89:
     print("Grade A")
     print(f"Aim Higher {name}")
 
-elif grade >= 70:
+elif 70 <= grade <= 79:
     print("Grade B+")
     print(f"More like it {name}")
 
-elif grade >= 65:
+elif 60 <= grade <= 69:
     print("Grade B-")
     print(f"Keep trying {name}")
 
-elif grade >= 50:
+elif 50 <= grade <= 59:
     print("Grade C+")
     print(f"Can do better {name}")
 
-elif grade >= 40:
+elif 40 <= grade <= 49:
     print("Grade C")
     print(f"Is this some kind of joke to you? {name}")
     
