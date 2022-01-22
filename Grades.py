@@ -24,6 +24,11 @@ elif grade >= 50:
 elif grade >= 40:
     print("Grade C")
     print(f"Is this some kind of joke to you? {name}")
+    
+elif grade >= 100:
+    print("Grade A alpha")
+    print(f"Sasawa chopi? {name}")
+
 
 else:
     print("Failed Successfully!\nPull up your socks son.")
