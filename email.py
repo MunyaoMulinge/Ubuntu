@@ -2,7 +2,7 @@ import smtplib
 
 sender = "victormunyao96@gmail.com"
 receiver = "victormunyao5@gmail.com"
-password = "luvuxomuchy"
+password = "nopassword"
 subject = "Python Email Test"
 body = "Wrote Email Using Python"
 
@@ -16,8 +16,8 @@ server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()  # Transport Layer Security
 
 # try:
-    server.login(sender, password)
-    print("Logged in...")
-    server.sendmail(sender, receiver, message)
-    print("Email has been sent")
+server.login(sender, password)
+print("Logged in...")
+server.sendmail(sender, receiver, message)
+print("Email has been sent")
 # except:
