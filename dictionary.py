@@ -5,7 +5,7 @@ dict1 = {
 }
 dict2 = {
     "club": "Koma City Stars FC",
-    "position": 8,
+    "position": 9,
     "contract": False
 }
 dict2.update(dict1)
