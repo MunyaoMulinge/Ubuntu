@@ -1,5 +1,5 @@
 import os
-path = "folder"
+path = "file"
 if os.path.exists(path):
     print("There is proof it exists.")
     if os.path.isfile(path):
