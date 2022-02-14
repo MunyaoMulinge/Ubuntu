@@ -5,4 +5,4 @@ def add(*args):
     return total
 
 
-print(add(1, 2, 9))
+print(add(1, 2, 9, 7, 9, 12))
